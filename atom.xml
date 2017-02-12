@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://meikus.com/"/>
-  <updated>2017-02-12T01:34:34.861Z</updated>
+  <updated>2017-02-12T03:02:23.656Z</updated>
   <id>http://meikus.com/</id>
   
   <author>
@@ -16,13 +16,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>博客建设中</title>
+    <link href="http://meikus.com/2017/02/12/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE%E4%B8%AD/"/>
+    <id>http://meikus.com/2017/02/12/博客建设中/</id>
+    <published>2017-02-12T03:01:26.000Z</published>
+    <updated>2017-02-12T03:02:23.656Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<p>博客建设中~~~~</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;博客建设中~~~~&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>如何设置hexo标签tag</title>
     <link href="http://meikus.com/2017/02/12/hexo-tag/"/>
     <id>http://meikus.com/2017/02/12/hexo-tag/</id>
     <published>2017-02-12T01:17:58.000Z</published>
-    <updated>2017-02-12T01:34:34.861Z</updated>
+    <updated>2017-02-12T02:54:10.625Z</updated>
     
-    <content type="html"><![CDATA[<p>1、这是你要发布的新文章，注意tags就是该文章的标签<br>2、在命令行中输入$ hexo new page tags</p>
+    <content type="html"><![CDATA[<a id="more"></a>
+<p>1、这是你要发布的新文章，注意tags就是该文章的标签<br>2、在命令行中输入$ hexo new page tags</p>
 <h2 id="3、这时会在在sources-tags里面有个index-md的文件，打开这个文件编辑"><a href="#3、这时会在在sources-tags里面有个index-md的文件，打开这个文件编辑" class="headerlink" title="3、这时会在在sources/tags里面有个index.md的文件，打开这个文件编辑"></a>3、这时会在在sources/tags里面有个index.md的文件，打开这个文件编辑</h2><pre><code>title: tags
 date: 2016-11-11 21:40:58
 type: &quot;tags&quot;
@@ -36,8 +59,9 @@ type: &quot;tags&quot;
     
     <summary type="html">
     
-      &lt;p&gt;1、这是你要发布的新文章，注意tags就是该文章的标签&lt;br&gt;2、在命令行中输入$ hexo new page tags&lt;/p&gt;
-&lt;h2 id=&quot;3、这时会在在sources-tags里面有个index-md的文件，打开这个文件编辑&quot;&gt;&lt;a href=&quot;#3、这时会在在so
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;1、这是你要发布的新文章，注意tags就是该文章的标签&lt;br&gt;2、在命令行中输入$ hexo new page tags&lt;/p&gt;
+&lt;h2 id=&quot;3、这时会在在sources-tags里面有个index-md的文件，打开这个文件编辑&quot;&gt;&lt;
     
     </summary>
     
@@ -47,11 +71,11 @@ type: &quot;tags&quot;
   </entry>
   
   <entry>
-    <title>js搬运工</title>
+    <title>测试测试</title>
     <link href="http://meikus.com/2017/02/12/my-first-post/"/>
     <id>http://meikus.com/2017/02/12/my-first-post/</id>
     <published>2017-02-11T22:17:58.000Z</published>
-    <updated>2017-02-12T01:32:22.015Z</updated>
+    <updated>2017-02-12T03:02:58.706Z</updated>
     
     <summary type="html">
     
