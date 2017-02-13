@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://meikus.com/"/>
-  <updated>2017-02-13T12:35:02.241Z</updated>
+  <updated>2017-02-13T12:54:14.774Z</updated>
   <id>http://meikus.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://meikus.com/2017/02/13/%E5%A4%8D%E5%88%B6%E6%95%B0%E7%BB%84/"/>
     <id>http://meikus.com/2017/02/13/复制数组/</id>
     <published>2017-02-13T12:31:43.000Z</published>
-    <updated>2017-02-13T12:35:02.241Z</updated>
+    <updated>2017-02-13T12:54:14.774Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <h3 id="在chrome浏览器测试"><a href="#在chrome浏览器测试" class="headerlink" title="在chrome浏览器测试"></a>在chrome浏览器测试</h3><pre><code>var a = [1,2,3]
