@@ -54,28 +54,6 @@ false
   </entry>
   
   <entry>
-    <title>博客建设中</title>
-    <link href="http://meikus.com/2017/02/12/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE%E4%B8%AD/"/>
-    <id>http://meikus.com/2017/02/12/博客建设中/</id>
-    <published>2017-02-12T03:01:26.000Z</published>
-    <updated>2017-02-12T03:02:23.656Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>
-<p>博客建设中~~~~</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;博客建设中~~~~&lt;/p&gt;
-
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>如何设置hexo标签tag</title>
     <link href="http://meikus.com/2017/02/12/hexo-tag/"/>
     <id>http://meikus.com/2017/02/12/hexo-tag/</id>
@@ -105,22 +83,6 @@ type: &quot;tags&quot;
     
     
       <category term="hexo" scheme="http://meikus.com/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>测试测试</title>
-    <link href="http://meikus.com/2017/02/12/my-first-post/"/>
-    <id>http://meikus.com/2017/02/12/my-first-post/</id>
-    <published>2017-02-11T22:17:58.000Z</published>
-    <updated>2017-02-12T03:02:58.706Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="js" scheme="http://meikus.com/tags/js/"/>
     
   </entry>
   
