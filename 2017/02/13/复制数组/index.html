@@ -4,22 +4,62 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>wsika</title>
+    <title>复制数组 | wsika</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="Wangshicheng">
     
 
     
-    <meta name="description" content="学而不思则罔，思而不学则殆">
-<meta property="og:type" content="website">
-<meta property="og:title" content="wsika">
-<meta property="og:url" content="http://meikus.com/index.html">
+    <meta name="description" content="在chrome浏览器测试var a = [1,2,3]
+var b =a;
+console.log(b)
+=&amp;gt;[1, 2, 3]
+b.push(4);
+a=b=&amp;gt;[1, 2, 3, 4]
+a===b?
+true
+var d = [1,2,3]
+var e = [...d]
+e=&amp;gt;[1, 2, 3]
+e.push(4)
+e=&amp;gt;[1, 2, 3, 4]
+d=&amp;gt;[1, 2">
+<meta property="og:type" content="article">
+<meta property="og:title" content="复制数组">
+<meta property="og:url" content="http://meikus.com/2017/02/13/复制数组/index.html">
 <meta property="og:site_name" content="wsika">
-<meta property="og:description" content="学而不思则罔，思而不学则殆">
+<meta property="og:description" content="在chrome浏览器测试var a = [1,2,3]
+var b =a;
+console.log(b)
+=&amp;gt;[1, 2, 3]
+b.push(4);
+a=b=&amp;gt;[1, 2, 3, 4]
+a===b?
+true
+var d = [1,2,3]
+var e = [...d]
+e=&amp;gt;[1, 2, 3]
+e.push(4)
+e=&amp;gt;[1, 2, 3, 4]
+d=&amp;gt;[1, 2">
+<meta property="og:updated_time" content="2017-02-13T12:35:02.241Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="wsika">
-<meta name="twitter:description" content="学而不思则罔，思而不学则殆">
+<meta name="twitter:title" content="复制数组">
+<meta name="twitter:description" content="在chrome浏览器测试var a = [1,2,3]
+var b =a;
+console.log(b)
+=&amp;gt;[1, 2, 3]
+b.push(4);
+a=b=&amp;gt;[1, 2, 3, 4]
+a===b?
+true
+var d = [1,2,3]
+var e = [...d]
+e=&amp;gt;[1, 2, 3]
+e.push(4)
+e=&amp;gt;[1, 2, 3, 4]
+d=&amp;gt;[1, 2">
 
     
     <link rel="alternative" href="/atom.xml" title="wsika" type="application/atom+xml">
@@ -73,12 +113,10 @@
 </div>
     </header>
     <div id="container">
-      <div id="main">
-
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
   <h1 itemprop="name">
     
       <a href="/2017/02/13/复制数组/" title="复制数组" itemprop="url">复制数组</a>
@@ -92,9 +130,16 @@
     
   </p>
 </header>
-    <div class="article-content">
-        
-        <a id="more"></a>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">Contents</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#在chrome浏览器测试"><span class="toc-number">1.</span> <span class="toc-text">在chrome浏览器测试</span></a></li></ol>
+		
+		</div>
+		
+		<a id="more"></a>
 <h3 id="在chrome浏览器测试"><a href="#在chrome浏览器测试" class="headerlink" title="在chrome浏览器测试"></a>在chrome浏览器测试</h3><pre><code>var a = [1,2,3]
 var b =a;
 console.log(b)
@@ -113,209 +158,53 @@ d===e
 false
 </code></pre><p>这里主要是注意[…Arry]</p>
 <p>是在内存中复制了相同值的数组，但是这两个数组在内存中的地址是不同的</p>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-
-</div>
-
-
-
-
-<div class="comments-count">
-	
-</div>
-
-</footer>
-
-
-    </article>
-
-
-
-
-
-
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
-    
-      <a href="/2017/02/12/博客建设中/" title="博客建设中" itemprop="url">博客建设中</a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="Wangshicheng" target="_blank" itemprop="author">Wangshicheng</a>
-		
-  <p class="article-time">
-    <time datetime="2017-02-12T03:01:26.000Z" itemprop="datePublished"> Published 2017-02-12</time>
-    
-  </p>
-</header>
-    <div class="article-content">
-        
-        <a id="more"></a>
-<p>博客建设中~~~~</p>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-
-</div>
-
-
-
-
-<div class="comments-count">
-	
-</div>
-
-</footer>
-
-
-    </article>
-
-
-
-
-
-
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
-    
-      <a href="/2017/02/12/hexo-tag/" title="如何设置hexo标签tag" itemprop="url">如何设置hexo标签tag</a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="Wangshicheng" target="_blank" itemprop="author">Wangshicheng</a>
-		
-  <p class="article-time">
-    <time datetime="2017-02-12T01:17:58.000Z" itemprop="datePublished"> Published 2017-02-12</time>
-    
-  </p>
-</header>
-    <div class="article-content">
-        
-        <a id="more"></a>
-<p>1、这是你要发布的新文章，注意tags就是该文章的标签<br>2、在命令行中输入$ hexo new page tags</p>
-<h2 id="3、这时会在在sources-tags里面有个index-md的文件，打开这个文件编辑"><a href="#3、这时会在在sources-tags里面有个index-md的文件，打开这个文件编辑" class="headerlink" title="3、这时会在在sources/tags里面有个index.md的文件，打开这个文件编辑"></a>3、这时会在在sources/tags里面有个index.md的文件，打开这个文件编辑</h2><pre><code>title: tags
-date: 2016-11-11 21:40:58
-type: &quot;tags&quot;
----
-</code></pre><p>type: 改成tags<br>4、在主题配置文件中，在menu项下，要把tags页打开如<br>menu:<br>  home: /<br>  categories: /categories</p>
-<p>  #about: /about<br>  archives: /archives<br>  tags: /tags    //确保标签页已打开</p>
-<p>  #schedule: /schedule     </p>
-<p>  #commonweal: /404.html  </p>
-<p>所有冒号后面都有个空格</p>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-
-  <div class="article-tags">
   
-  <span></span> <a href="/tags/hexo/">hexo</a>
-  </div>
-
-</div>
-
-
-
-
-<div class="comments-count">
-	
-</div>
-
-</footer>
-
-
-    </article>
-
-
-
-
-
-
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
-    
-      <a href="/2017/02/12/my-first-post/" title="测试测试" itemprop="url">测试测试</a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="Wangshicheng" target="_blank" itemprop="author">Wangshicheng</a>
-		
-  <p class="article-time">
-    <time datetime="2017-02-11T22:17:58.000Z" itemprop="datePublished"> Published 2017-02-12</time>
-    
-  </p>
-</header>
-    <div class="article-content">
-        
-        
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
+	</div>
+		<footer class="article-footer clearfix">
 <div class="article-catetags">
 
 
-  <div class="article-tags">
-  
-  <span></span> <a href="/tags/js/">js</a>
-  </div>
-
 </div>
 
 
 
-
-<div class="comments-count">
+	<div class="article-share" id="share">
 	
-</div>
+	  <div data-url="http://meikus.com/2017/02/13/复制数组/" data-title="复制数组 | wsika" data-tsina="null" class="share clearfix">
+	  </div>
+	
+	</div>
+
 
 </footer>
 
+   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
 
-    </article>
-
-
-
-
-
-
-
+<div class="next">
+<a href="/2017/02/12/博客建设中/"  title="博客建设中">
+ <strong>下一篇：</strong><br/> 
+ <span>博客建设中
+</span>
+</a>
 </div>
+
+</nav>
+
+	
+
+</div>  
       <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">Contents</strong>
+ 
+ <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#在chrome浏览器测试"><span class="toc-number">1.</span> <span class="toc-text">在chrome浏览器测试</span></a></li></ol>
+ 
+  </div>
 
 <div id="asidepart">
 <div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
@@ -455,12 +344,89 @@ $(document).ready(function(){
       m.removeClass('moveMain');
       a.css('display', 'block').removeClass('fadeOut');
       o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
         
     }
   });
 });
 </script>
 
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});   
+</script>
 
 
 
@@ -531,4 +497,4 @@ var _hmt = _hmt || [];
 <!-- Tiny_search End -->
 
   </body>
- </html>
+</html>
