@@ -50,32 +50,11 @@
   </entry>
   
   <entry>
-    <title>es6content</title>
-    <link href="http://meikus.com/2017/03/10/es6content/"/>
-    <id>http://meikus.com/2017/03/10/es6content/</id>
-    <published>2017-03-10T13:14:58.000Z</published>
-    <updated>2017-03-10T14:26:04.443Z</updated>
-    
-    <content type="html"><![CDATA[<p>1:先全局安装<br>npm install -g  babel-cli<br>2：npm install babel</p>
-<p>babel 将e6 编译成es5<br>babel es6.js –out-file dist-es5.js –presets es2015<br>dist 目录需要手动创建<br>babel es6.js -w –out-file dist-es5.js –presets es2015 自动监控<br>browser-sync  自动化测试服务<br>启动web服务命令 browser-sync start –server –files “**” 监控所有文件<br>babel-core 使用在浏览器中编译ES6 转成ES6</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;1:先全局安装&lt;br&gt;npm install -g  babel-cli&lt;br&gt;2：npm install babel&lt;/p&gt;
-&lt;p&gt;babel 将e6 编译成es5&lt;br&gt;babel es6.js –out-file dist-es5.js –presets es2015
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Callback,Promise,Genratro,async/await对比</title>
-    <link href="http://meikus.com/2017/03/10/callback/"/>
-    <id>http://meikus.com/2017/03/10/callback/</id>
-    <published>2017-03-10T13:14:58.000Z</published>
-    <updated>2017-03-20T13:32:10.926Z</updated>
+    <link href="http://meikus.com/2017/03/12/callback/"/>
+    <id>http://meikus.com/2017/03/12/callback/</id>
+    <published>2017-03-12T13:14:58.000Z</published>
+    <updated>2017-04-10T14:55:19.290Z</updated>
     
     <content type="html"><![CDATA[<p>js执行分同步执行和异步执行</p>
 <p><a href="https://www.lazycoffee.com/articles/view?id=58ab09eea072b332753d9774" target="_blank" rel="external">https://www.lazycoffee.com/articles/view?id=58ab09eea072b332753d9774</a><br>js代码的书写问题<br>    同步编程。。异步编程<br>任务:泡茶<br>分为 3个事件 烧水 洗杯子 准备茶叶<br>callbackhell(回调嵌套) 能够保证事件的执行顺序额：同步式写法</p>
@@ -94,10 +73,10 @@
   
   <entry>
     <title>懒加载</title>
-    <link href="http://meikus.com/2017/03/10/lazyload/"/>
-    <id>http://meikus.com/2017/03/10/lazyload/</id>
-    <published>2017-03-10T13:14:58.000Z</published>
-    <updated>2017-03-16T12:20:10.906Z</updated>
+    <link href="http://meikus.com/2017/03/11/lazyload/"/>
+    <id>http://meikus.com/2017/03/11/lazyload/</id>
+    <published>2017-03-11T13:14:58.000Z</published>
+    <updated>2017-04-10T14:55:13.601Z</updated>
     
     <content type="html"><![CDATA[<p>实现原理<br>延迟加载</p>
 <p>img src 1*1 小图片占位符 data-url=”xxxxx”<br>优点：</p>
@@ -112,6 +91,27 @@
 &lt;p&gt;img src 1*1 小图片占位符 data-url=”xxxxx”&lt;br&gt;优点：&lt;/p&gt;
 &lt;p&gt;预加载&lt;br&gt;提前加载图片 牺牲服务器性能&lt;/p&gt;
 &lt;p&gt;对比  懒加载 预加载&lt;br&gt;相同点：目的为了提高用户体验，提高页面浏览速度
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>es6content</title>
+    <link href="http://meikus.com/2017/03/10/es6content/"/>
+    <id>http://meikus.com/2017/03/10/es6content/</id>
+    <published>2017-03-10T13:14:58.000Z</published>
+    <updated>2017-03-10T14:26:04.443Z</updated>
+    
+    <content type="html"><![CDATA[<p>1:先全局安装<br>npm install -g  babel-cli<br>2：npm install babel</p>
+<p>babel 将e6 编译成es5<br>babel es6.js –out-file dist-es5.js –presets es2015<br>dist 目录需要手动创建<br>babel es6.js -w –out-file dist-es5.js –presets es2015 自动监控<br>browser-sync  自动化测试服务<br>启动web服务命令 browser-sync start –server –files “**” 监控所有文件<br>babel-core 使用在浏览器中编译ES6 转成ES6</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;1:先全局安装&lt;br&gt;npm install -g  babel-cli&lt;br&gt;2：npm install babel&lt;/p&gt;
+&lt;p&gt;babel 将e6 编译成es5&lt;br&gt;babel es6.js –out-file dist-es5.js –presets es2015
     
     </summary>
     
