@@ -81,6 +81,74 @@
         <header class="article-info clearfix">
   <h1 itemprop="name">
     
+      <a href="/2017/02/13/copyArr/" title="复制数组" itemprop="url">复制数组</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="Wangshicheng" target="_blank" itemprop="author">Wangshicheng</a>
+		
+  <p class="article-time">
+    <time datetime="2017-02-13T12:31:43.000Z" itemprop="datePublished"> Published 2017-02-13</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <a id="more"></a>
+<h3 id="在chrome浏览器测试"><a href="#在chrome浏览器测试" class="headerlink" title="在chrome浏览器测试"></a>在chrome浏览器测试</h3><pre><code>var a = [1,2,3]
+var b =a;
+console.log(b)
+=&gt;[1, 2, 3]
+b.push(4);
+a=b=&gt;[1, 2, 3, 4]
+a===b?
+true
+var d = [1,2,3]
+var e = [...d]
+e=&gt;[1, 2, 3]
+e.push(4)
+e=&gt;[1, 2, 3, 4]
+d=&gt;[1, 2, 3]
+d===e
+false
+</code></pre><p>这里主要是注意[…Arry]</p>
+<p>是在内存中复制了相同值的数组，但是这两个数组在内存中的地址是不同的</p>
+
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
       <a href="/2017/02/12/hexo-tag/" title="如何设置hexo标签tag" itemprop="url">如何设置hexo标签tag</a>
   </h1>
   <p class="article-author">By

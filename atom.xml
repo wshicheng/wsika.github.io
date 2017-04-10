@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://meikus.com/"/>
-  <updated>2017-04-10T12:44:00.651Z</updated>
+  <updated>2017-04-10T15:15:15.739Z</updated>
   <id>http://meikus.com/</id>
   
   <author>
@@ -14,6 +14,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vue.js之模板引擎</title>
+    <link href="http://meikus.com/2017/04/10/vue-js%E4%B9%8B%E6%A8%A1%E6%9D%BF%E5%BC%95%E6%93%8E/"/>
+    <id>http://meikus.com/2017/04/10/vue-js之模板引擎/</id>
+    <published>2017-04-10T15:14:55.000Z</published>
+    <updated>2017-04-10T15:15:15.739Z</updated>
+    
+    <content type="html"><![CDATA[<p>模板引擎<br>    通常这个概念出现在应用层（MVC层的View） express jade ejs<br>    客户端Http请求–&gt;应用层的控制器（Controller）<br>    应用层的服务层（service,访问数据库）-》封装到模型层（Model）-&gt;<br>    跳转到视图层（View,模板引擎）-&gt;生成HTML代码-》返回给客户端浏览器</p>
+<pre><code>window.onload=function(){
+    vue(&quot;#app&quot;,{
+        message:&quot;hello vue!&quot;,
+        pData:&apos;this is p data&apos;
+    })
+    function vue(id,data){
+        var context = document.querySelector(id);
+        var html = context.html;
+        var regex = /(\{\{\s*([\w]+)\s*\}\})/g;
+        while(regex.exec(html)){
+            html = html.replace(new RegExp(RegExp.$1,&quot;g&quot;),data[RegExp.$2])
+        }
+        context.innerHTML = html;
+    }
+}
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;模板引擎&lt;br&gt;    通常这个概念出现在应用层（MVC层的View） express jade ejs&lt;br&gt;    客户端Http请求–&amp;gt;应用层的控制器（Controller）&lt;br&gt;    应用层的服务层（service,访问数据库）-》封装到模型层（Model
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>vue的概念 之模版引擎</title>
