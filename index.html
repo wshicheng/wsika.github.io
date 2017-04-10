@@ -198,7 +198,7 @@
         <header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2017/03/10/es6content/" title="es6content" itemprop="url">es6content</a>
+      <a href="/2017/03/10/lazyload/" title="懒加载" itemprop="url">懒加载</a>
   </h1>
   <p class="article-author">By
        
@@ -211,8 +211,11 @@
 </header>
     <div class="article-content">
         
-        <p>1:先全局安装<br>npm install -g  babel-cli<br>2：npm install babel</p>
-<p>babel 将e6 编译成es5<br>babel es6.js –out-file dist-es5.js –presets es2015<br>dist 目录需要手动创建<br>babel es6.js -w –out-file dist-es5.js –presets es2015 自动监控<br>browser-sync  自动化测试服务<br>启动web服务命令 browser-sync start –server –files “**” 监控所有文件<br>babel-core 使用在浏览器中编译ES6 转成ES6</p>
+        <p>实现原理<br>延迟加载</p>
+<p>img src 1*1 小图片占位符 data-url=”xxxxx”<br>优点：</p>
+<p>预加载<br>提前加载图片 牺牲服务器性能</p>
+<p>对比  懒加载 预加载<br>相同点：目的为了提高用户体验，提高页面浏览速度<br>不同点：</p>
+<p>1:懒加载技术<br>2：函数 闭包</p>
 
         
         
@@ -249,7 +252,7 @@
         <header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2017/03/10/lazyload/" title="懒加载" itemprop="url">懒加载</a>
+      <a href="/2017/03/10/es6content/" title="es6content" itemprop="url">es6content</a>
   </h1>
   <p class="article-author">By
        
@@ -262,11 +265,8 @@
 </header>
     <div class="article-content">
         
-        <p>实现原理<br>延迟加载</p>
-<p>img src 1*1 小图片占位符 data-url=”xxxxx”<br>优点：</p>
-<p>预加载<br>提前加载图片 牺牲服务器性能</p>
-<p>对比  懒加载 预加载<br>相同点：目的为了提高用户体验，提高页面浏览速度<br>不同点：</p>
-<p>1:懒加载技术<br>2：函数 闭包</p>
+        <p>1:先全局安装<br>npm install -g  babel-cli<br>2：npm install babel</p>
+<p>babel 将e6 编译成es5<br>babel es6.js –out-file dist-es5.js –presets es2015<br>dist 目录需要手动创建<br>babel es6.js -w –out-file dist-es5.js –presets es2015 自动监控<br>browser-sync  自动化测试服务<br>启动web服务命令 browser-sync start –server –files “**” 监控所有文件<br>babel-core 使用在浏览器中编译ES6 转成ES6</p>
 
         
         
