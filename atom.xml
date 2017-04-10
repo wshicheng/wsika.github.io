@@ -17,8 +17,8 @@
   
   <entry>
     <title>vue的概念 之模版引擎</title>
-    <link href="http://meikus.com/2017/04/10/%E6%A8%A1%E6%9D%BF%E5%BC%95%E6%93%8E/"/>
-    <id>http://meikus.com/2017/04/10/模板引擎/</id>
+    <link href="http://meikus.com/2017/04/10/template/"/>
+    <id>http://meikus.com/2017/04/10/template/</id>
     <published>2017-04-10T12:14:58.000Z</published>
     <updated>2017-04-10T12:44:00.651Z</updated>
     
@@ -43,6 +43,27 @@
     <summary type="html">
     
       &lt;p&gt;模板引擎&lt;br&gt;    通常这个概念出现在应用层（MVC层的View） express jade ejs&lt;br&gt;    客户端Http请求–&amp;gt;应用层的控制器（Controller）&lt;br&gt;    应用层的服务层（service,访问数据库）-》封装到模型层（Model
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>es6content</title>
+    <link href="http://meikus.com/2017/03/10/es6content/"/>
+    <id>http://meikus.com/2017/03/10/es6content/</id>
+    <published>2017-03-10T13:14:58.000Z</published>
+    <updated>2017-03-10T14:26:04.443Z</updated>
+    
+    <content type="html"><![CDATA[<p>1:先全局安装<br>npm install -g  babel-cli<br>2：npm install babel</p>
+<p>babel 将e6 编译成es5<br>babel es6.js –out-file dist-es5.js –presets es2015<br>dist 目录需要手动创建<br>babel es6.js -w –out-file dist-es5.js –presets es2015 自动监控<br>browser-sync  自动化测试服务<br>启动web服务命令 browser-sync start –server –files “**” 监控所有文件<br>babel-core 使用在浏览器中编译ES6 转成ES6</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;1:先全局安装&lt;br&gt;npm install -g  babel-cli&lt;br&gt;2：npm install babel&lt;/p&gt;
+&lt;p&gt;babel 将e6 编译成es5&lt;br&gt;babel es6.js –out-file dist-es5.js –presets es2015
     
     </summary>
     
@@ -98,30 +119,9 @@
   </entry>
   
   <entry>
-    <title>es6content</title>
-    <link href="http://meikus.com/2017/03/10/es6content/"/>
-    <id>http://meikus.com/2017/03/10/es6content/</id>
-    <published>2017-03-10T13:14:58.000Z</published>
-    <updated>2017-03-10T14:26:04.443Z</updated>
-    
-    <content type="html"><![CDATA[<p>1:先全局安装<br>npm install -g  babel-cli<br>2：npm install babel</p>
-<p>babel 将e6 编译成es5<br>babel es6.js –out-file dist-es5.js –presets es2015<br>dist 目录需要手动创建<br>babel es6.js -w –out-file dist-es5.js –presets es2015 自动监控<br>browser-sync  自动化测试服务<br>启动web服务命令 browser-sync start –server –files “**” 监控所有文件<br>babel-core 使用在浏览器中编译ES6 转成ES6</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;1:先全局安装&lt;br&gt;npm install -g  babel-cli&lt;br&gt;2：npm install babel&lt;/p&gt;
-&lt;p&gt;babel 将e6 编译成es5&lt;br&gt;babel es6.js –out-file dist-es5.js –presets es2015
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>复制数组</title>
-    <link href="http://meikus.com/2017/02/13/%E5%A4%8D%E5%88%B6%E6%95%B0%E7%BB%84/"/>
-    <id>http://meikus.com/2017/02/13/复制数组/</id>
+    <link href="http://meikus.com/2017/02/13/copyArr/"/>
+    <id>http://meikus.com/2017/02/13/copyArr/</id>
     <published>2017-02-13T12:31:43.000Z</published>
     <updated>2017-02-13T12:54:14.774Z</updated>
     
