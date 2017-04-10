@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://meikus.com/"/>
-  <updated>2017-03-10T14:26:04.443Z</updated>
+  <updated>2017-04-10T12:44:00.651Z</updated>
   <id>http://meikus.com/</id>
   
   <author>
@@ -14,6 +14,62 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vue的概念 之模版引擎</title>
+    <link href="http://meikus.com/2017/04/10/%E6%A8%A1%E6%9D%BF%E5%BC%95%E6%93%8E/"/>
+    <id>http://meikus.com/2017/04/10/模板引擎/</id>
+    <published>2017-04-10T12:14:58.000Z</published>
+    <updated>2017-04-10T12:44:00.651Z</updated>
+    
+    <content type="html"><![CDATA[<p>模板引擎<br>    通常这个概念出现在应用层（MVC层的View） express jade ejs<br>    客户端Http请求–&gt;应用层的控制器（Controller）<br>    应用层的服务层（service,访问数据库）-》封装到模型层（Model）-&gt;<br>    跳转到视图层（View,模板引擎）-&gt;生成HTML代码-》返回给客户端浏览器</p>
+<pre><code>window.onload=function(){
+    vue(&quot;#app&quot;,{
+        message:&quot;hello vue!&quot;,
+        pData:&apos;this is p data&apos;
+    })
+    function vue(id,data){
+        var context = document.querySelector(id);
+        var html = context.html;
+        var regex = /(\{\{\s*([\w]+)\s*\}\})/g;
+        while(regex.exec(html)){
+            html = html.replace(new RegExp(RegExp.$1,&quot;g&quot;),data[RegExp.$2])
+        }
+        context.innerHTML = html;
+    }
+}
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;模板引擎&lt;br&gt;    通常这个概念出现在应用层（MVC层的View） express jade ejs&lt;br&gt;    客户端Http请求–&amp;gt;应用层的控制器（Controller）&lt;br&gt;    应用层的服务层（service,访问数据库）-》封装到模型层（Model
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Callback,Promise,Genratro,async/await对比</title>
+    <link href="http://meikus.com/2017/03/10/callback/"/>
+    <id>http://meikus.com/2017/03/10/callback/</id>
+    <published>2017-03-10T13:14:58.000Z</published>
+    <updated>2017-03-20T13:32:10.926Z</updated>
+    
+    <content type="html"><![CDATA[<p>js执行分同步执行和异步执行</p>
+<p><a href="https://www.lazycoffee.com/articles/view?id=58ab09eea072b332753d9774" target="_blank" rel="external">https://www.lazycoffee.com/articles/view?id=58ab09eea072b332753d9774</a><br>js代码的书写问题<br>    同步编程。。异步编程<br>任务:泡茶<br>分为 3个事件 烧水 洗杯子 准备茶叶<br>callbackhell(回调嵌套) 能够保证事件的执行顺序额：同步式写法</p>
+<p>Promised 的四个要求<br>    1、学会封装promise对象<br>    2、then的使用,链式调用<br>    3、all()的使用 组合式关系<br>    4、race的使用</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;js执行分同步执行和异步执行&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.lazycoffee.com/articles/view?id=58ab09eea072b332753d9774&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>es6content</title>
@@ -30,6 +86,32 @@
     
       &lt;p&gt;1:先全局安装&lt;br&gt;npm install -g  babel-cli&lt;br&gt;2：npm install babel&lt;/p&gt;
 &lt;p&gt;babel 将e6 编译成es5&lt;br&gt;babel es6.js –out-file dist-es5.js –presets es2015
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>懒加载</title>
+    <link href="http://meikus.com/2017/03/10/lazyload/"/>
+    <id>http://meikus.com/2017/03/10/lazyload/</id>
+    <published>2017-03-10T13:14:58.000Z</published>
+    <updated>2017-03-16T12:20:10.906Z</updated>
+    
+    <content type="html"><![CDATA[<p>实现原理<br>延迟加载</p>
+<p>img src 1*1 小图片占位符 data-url=”xxxxx”<br>优点：</p>
+<p>预加载<br>提前加载图片 牺牲服务器性能</p>
+<p>对比  懒加载 预加载<br>相同点：目的为了提高用户体验，提高页面浏览速度<br>不同点：</p>
+<p>1:懒加载技术<br>2：函数 闭包</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;实现原理&lt;br&gt;延迟加载&lt;/p&gt;
+&lt;p&gt;img src 1*1 小图片占位符 data-url=”xxxxx”&lt;br&gt;优点：&lt;/p&gt;
+&lt;p&gt;预加载&lt;br&gt;提前加载图片 牺牲服务器性能&lt;/p&gt;
+&lt;p&gt;对比  懒加载 预加载&lt;br&gt;相同点：目的为了提高用户体验，提高页面浏览速度
     
     </summary>
     

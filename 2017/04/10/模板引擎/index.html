@@ -1,27 +1,29 @@
 
-  
-    <!DOCTYPE HTML>
+ <!DOCTYPE HTML>
 <html lang="zh-Hans">
 <head>
   <meta charset="UTF-8">
   
-    <title>关于我 | wsika</title>
+    <title>vue的概念 之模版引擎 | wsika</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="Wangshicheng">
     
 
     
-    <meta name="description" content="努力奋斗吧，少年！">
-<meta property="og:type" content="website">
-<meta property="og:title" content="关于我">
-<meta property="og:url" content="http://meikus.com/about/index.html">
+    <meta name="description" content="模板引擎    通常这个概念出现在应用层（MVC层的View） express jade ejs    客户端Http请求–&amp;gt;应用层的控制器（Controller）    应用层的服务层（service,访问数据库）-》封装到模型层（Model）-&amp;gt;    跳转到视图层（View,模板引擎）-&amp;gt;生成HTML代码-》返回给客户端浏览器
+window.onload=function(">
+<meta property="og:type" content="article">
+<meta property="og:title" content="vue的概念 之模版引擎">
+<meta property="og:url" content="http://meikus.com/2017/04/10/模板引擎/index.html">
 <meta property="og:site_name" content="wsika">
-<meta property="og:description" content="努力奋斗吧，少年！">
-<meta property="og:updated_time" content="2017-02-13T13:05:46.750Z">
+<meta property="og:description" content="模板引擎    通常这个概念出现在应用层（MVC层的View） express jade ejs    客户端Http请求–&amp;gt;应用层的控制器（Controller）    应用层的服务层（service,访问数据库）-》封装到模型层（Model）-&amp;gt;    跳转到视图层（View,模板引擎）-&amp;gt;生成HTML代码-》返回给客户端浏览器
+window.onload=function(">
+<meta property="og:updated_time" content="2017-04-10T12:44:00.651Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="关于我">
-<meta name="twitter:description" content="努力奋斗吧，少年！">
+<meta name="twitter:title" content="vue的概念 之模版引擎">
+<meta name="twitter:description" content="模板引擎    通常这个概念出现在应用层（MVC层的View） express jade ejs    客户端Http请求–&amp;gt;应用层的控制器（Controller）    应用层的服务层（service,访问数据库）-》封装到模型层（Model）-&amp;gt;    跳转到视图层（View,模板引擎）-&amp;gt;生成HTML代码-》返回给客户端浏览器
+window.onload=function(">
 
     
     <link rel="alternative" href="/atom.xml" title="wsika" type="application/atom+xml">
@@ -36,9 +38,9 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
-      <body>
-        <header>
-          
+  <body>
+    <header>
+      
 <div>
 		
 			<div id="imglogo">
@@ -73,29 +75,51 @@
 				</ul>
 			</nav>			
 </div>
-        </header>
-        <div id="container">
-          <div id="main" class="page" itemscope itemprop="blogPost">
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
   
 	<article itemprop="articleBody"> 
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/about/index.html" title="关于我" itemprop="url">关于我</a>
+      <a href="/2017/04/10/模板引擎/" title="vue的概念 之模版引擎" itemprop="url">vue的概念 之模版引擎</a>
   </h1>
   <p class="article-author">By
        
 		<a href="/about" title="Wangshicheng" target="_blank" itemprop="author">Wangshicheng</a>
 		
   <p class="article-time">
-    <time datetime="2017-02-13T13:00:33.000Z" itemprop="datePublished"> 发表于 2017-02-13</time>
+    <time datetime="2017-04-10T12:14:58.000Z" itemprop="datePublished"> 发表于 2017-04-10</time>
     
   </p>
 </header>
 	<div class="article-content">
 		
-		<p>努力奋斗吧，少年！</p>
-  
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		
+			
+		
+		</div>
+		
+		<p>模板引擎<br>    通常这个概念出现在应用层（MVC层的View） express jade ejs<br>    客户端Http请求–&gt;应用层的控制器（Controller）<br>    应用层的服务层（service,访问数据库）-》封装到模型层（Model）-&gt;<br>    跳转到视图层（View,模板引擎）-&gt;生成HTML代码-》返回给客户端浏览器</p>
+<pre><code>window.onload=function(){
+    vue(&quot;#app&quot;,{
+        message:&quot;hello vue!&quot;,
+        pData:&apos;this is p data&apos;
+    })
+    function vue(id,data){
+        var context = document.querySelector(id);
+        var html = context.html;
+        var regex = /(\{\{\s*([\w]+)\s*\}\})/g;
+        while(regex.exec(html)){
+            html = html.replace(new RegExp(RegExp.$1,&quot;g&quot;),data[RegExp.$2])
+        }
+        context.innerHTML = html;
+    }
+}
+</code></pre>  
 	</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
@@ -107,7 +131,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://meikus.com/about/index.html" data-title="关于我 | wsika" data-tsina="null" class="share clearfix">
+	  <div data-url="http://meikus.com/2017/04/10/模板引擎/" data-title="vue的概念 之模版引擎 | wsika" data-tsina="null" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -118,11 +142,83 @@
    	       
 	</article>
 	
+<nav class="article-nav clearfix">
+ 
+
+<div class="next">
+<a href="/2017/03/10/callback/"  title="Callback,Promise,Genratro,async/await对比">
+ <strong>下一篇：</strong><br/> 
+ <span>Callback,Promise,Genratro,async/await对比
+</span>
+</a>
+</div>
+
+</nav>
+
 	
 
 </div>  
-        </div>
-        <footer><div id="footer" >
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+ 
+ 
+ 
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  
+
+
+  
+
+  
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			
+				<li><a href="/tags/hexo/" title="hexo">hexo<sup>1</sup></a></li>
+			
+		
+		</ul>
+</div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">友情链接</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="http://meikus.com" target="_blank" title="Wsika&#39;s Blog">Wsika&#39;s Blog</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  
+
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+  <div class="weiboshow">
+  <p class="asidetitle">新浪微博</p>
+    <iframe width="100%" height="119" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=119&fansRow=2&ptype=1&speed=0&skin=9&isTitle=1&noborder=1&isWeibo=0&isFans=0&uid=null&verifier=b3593ceb&dpc=1"></iframe>
+</div>
+
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
 	
 	<div class="line">
 		<span></span>
@@ -161,7 +257,7 @@
 		</p>-->
 </div>
 </footer>
-        <script src="/js/jquery-2.0.3.min.js"></script>
+    <script src="/js/jquery-2.0.3.min.js"></script>
 <script src="/js/jquery.imagesloaded.min.js"></script>
 <script src="/js/gallery.js"></script>
 <script src="/js/jquery.qrcode-0.12.0.min.js"></script>
@@ -205,8 +301,36 @@ $(document).ready(function(){
       m.removeClass('moveMain');
       a.css('display', 'block').removeClass('fadeOut');
       o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
         
     }
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
   });
 });
 </script>
@@ -329,6 +453,5 @@ var _hmt = _hmt || [];
 
 <!-- Tiny_search End -->
 
-      </body>
-     </html>
-     
+  </body>
+</html>
